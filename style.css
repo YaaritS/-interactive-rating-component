@@ -128,6 +128,7 @@ button {
     margin: 25px 40px;
     padding: 15px 65px;
     width: 345px;
+    letter-spacing: 2px;
 }
 
 button:hover {
@@ -164,6 +165,7 @@ text-align: center;
     padding: 10px 20px;
     width: 200px;
     cursor:default;
+    letter-spacing: normal;
 }
 
 #thankYouIMG {

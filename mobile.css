@@ -1,0 +1,55 @@
+
+
+#card, #thankYouCard {
+    width: 330px;
+    height: 330px;
+    margin-top: 150px;
+}
+
+#starIMG {
+    margin: 15px;
+}
+
+h1 {
+    padding: 5px 25px;
+}
+
+
+#ratings {
+    width: 285px;
+    margin: 5px 10px;
+}
+
+.container {
+    font-size: 15px;
+}
+
+.checkmark {
+    height: 5px;
+    width: 5px;
+    padding: 15px;
+}
+
+button {
+    width: 250px;
+    margin: 10px 30px;
+    padding: 10px 30px;
+}
+
+
+#thankYouIMG {
+    padding: 5px;
+    margin: 10px;
+}
+
+#thankYouBtn {
+    width: 200px;
+    margin: 5px 30px;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+#thankYouP {
+    font-size: 12px;
+}
+
