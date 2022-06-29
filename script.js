@@ -1,20 +1,14 @@
-
+'use strict'
 
 const card = document.getElementById("card");
 const thankYouCard = document.getElementById("thankYouCard");
-// const ratings = document.getElementById('ratings');
-// const rating = document.getElementsByClassName("rating");
-// const checkmark = document.getElementsByClassName("checkmark");
-// const rating1 = document.getElementById("rating1");
-// const rating2 = document.getElementById("rating2");
-// const rating3 = document.getElementById("rating3");
-// const rating4 = document.getElementById("rating4");
-// const rating5 = document.getElementById("rating5");
-// const input = document.querySelector('input');
 
 
-let ele = document.getElementsByName('radio');
+/* Select all the ratings */
+let ele = document.getElementsByName('radio'); 
+// console.log(ele);
 
+/* This function has a for loop that runs on the ratings list and the if statement checkes which one is checked, the code is to put the message on the thank you button. Then we have another if statement to hide the card and show the thank you card. */
 
 function displayRadioValue() {
   for(i = 0; i < ele.length; i++) {
